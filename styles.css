@@ -1488,3 +1488,68 @@ body, html {
         font-size: 0.9em;
     }
 }
+
+
+/* Footer Styling */
+.footer {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); /* Matches header background */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+    padding: 10px 20px; /* Small padding */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Text color */
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333; /* Icon color */
+    font-size: 1.5em; /* Icon size */
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007BFF; /* Hover color */
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Footer Adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        gap: 15px;
+    }
+
+    .footer-logo {
+        font-size: 1.2em;
+    }
+
+    .footer-links a {
+        font-size: 1.3em;
+    }
+
+    .footer-contact p {
+        font-size: 0.8em;
+    }
+}
